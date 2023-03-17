@@ -20,11 +20,11 @@ st.write(
 )
 
 import pandas as pd # 판다스 불러오기
-data_url = "https://raw.githubusercontent.com/bigdata-young/bigdata_16th/main/data/titanic_train.csv"
-df = pd.read_csv(data_url) # URL로 CSV 불러오기
+# data_url = "https://raw.githubusercontent.com/bigdata-young/bigdata_16th/main/data/titanic_train.csv"
+# df = pd.read_csv(data_url) # URL로 CSV 불러오기
 
-st.write(df) # 자동으로 표 그려줌
-# st.table(df) # 이걸로 그려도 됨
+# st.write(df) # 자동으로 표 그려줌
+# # st.table(df) # 이걸로 그려도 됨
 
 st.write("# 모델 통해 예측해 보기")
 
