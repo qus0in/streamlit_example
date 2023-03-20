@@ -12,10 +12,10 @@ get_image("insurance.png") # https://www.canva.com/
 st.write(
     """
     # 코드 & 데이터
-    * [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/qus0in/streamlit_example/tree/main/01_linear_regression)
-    * [![Colab](https://img.shields.io/badge/colab-linear%20regression-yellow)](https://colab.research.google.com/drive/1tzSruMdLLBdizgzFKucgfB5u9DbX7x4b?usp=sharing)
-    * [![Kaggle](https://img.shields.io/badge/kaggle-insurance.csv-yellow)](https://www.kaggle.com/datasets/awaiskaggler/insurance-csv)
-    * [![Streamlit](https://img.shields.io/badge/streamlit-linear%20regression-yellow)](https://qus0in-streamlit-example-01-linear-regressionapp-hpk17l.streamlit.app)
+    > [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/qus0in/streamlit_example/tree/main/01_linear_regression)
+    > [![Colab](https://img.shields.io/badge/colab-linear%20regression-yellow)](https://colab.research.google.com/drive/1tzSruMdLLBdizgzFKucgfB5u9DbX7x4b?usp=sharing)
+    > [![Kaggle](https://img.shields.io/badge/kaggle-insurance.csv-yellow)](https://www.kaggle.com/datasets/awaiskaggler/insurance-csv)
+    > [![Streamlit](https://img.shields.io/badge/streamlit-linear%20regression-yellow)](https://qus0in-streamlit-example-01-linear-regressionapp-hpk17l.streamlit.app)
     """
 )
 
