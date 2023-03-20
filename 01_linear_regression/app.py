@@ -12,6 +12,7 @@ get_image("insurance.png") # https://www.canva.com/
 st.write(
     """
     # 코드 & 데이터
+    * [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/qus0in/streamlit_example/tree/main/01_linear_regression)
     * [Colab 노트북](https://colab.research.google.com/drive/1tzSruMdLLBdizgzFKucgfB5u9DbX7x4b?usp=sharing)
     * 사용한 데이터 (insurance.csv)
         * 출처 : https://www.kaggle.com/datasets/awaiskaggler/insurance-csv
