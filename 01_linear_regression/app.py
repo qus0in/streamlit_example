@@ -12,15 +12,14 @@ get_image("insurance.png") # https://www.canva.com/
 st.write(
     """
     # 코드 & 데이터
-    * [Colab 노트북](https://colab.research.google.com/drive/14QXhTVyMeo9vE6rEk2Q8cmcybsMgtV4k?usp=sharing)
+    * [Colab 노트북](https://colab.research.google.com/drive/1tzSruMdLLBdizgzFKucgfB5u9DbX7x4b?usp=sharing)
     * 사용한 데이터 (insurance.csv)
         * 출처 : https://www.kaggle.com/datasets/awaiskaggler/insurance-csv
-    * 실행 결과 : <https://qus0in-streamlit-example-01-linear-regressionapp-bnlrbe.streamlit.app/>
     """
 )
 
 import pandas as pd # 판다스 불러오기
-data_url = "https://raw.githubusercontent.com/bigdata-young/bigdata_16th/main/data/insurance.csv"
+data_url = "https://github.com/BigData23th/Data/raw/main/insurance.csv"
 df = pd.read_csv(data_url) # URL로 CSV 불러오기
 
 st.write(df) # 자동으로 표 그려줌
