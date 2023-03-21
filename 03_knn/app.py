@@ -20,7 +20,8 @@ st.write(
 )
 
 import pandas as pd # 판다스 불러오기
-data_url = "https://raw.githubusercontent.com/bigdata-young/bigdata_16th/main/data/wine.csv"
+# data_url = "https://raw.githubusercontent.com/bigdata-young/bigdata_16th/main/data/wine.csv"
+data_url = "https://github.com/BigData23th/Data/raw/main/wine.csv"
 df = pd.read_csv(data_url) # URL로 CSV 불러오기
 
 st.write(df) # 자동으로 표 그려줌
